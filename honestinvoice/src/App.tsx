@@ -5,7 +5,7 @@ import { supabase } from './lib/supabase'
 import { Session } from '@supabase/supabase-js'
 import { AuthProvider } from './contexts/AuthContext'
 import { usePWA } from './hooks/usePWA'
-import PWAInstallPrompt from './components/PWAInstallPrompt'
+
 import OfflineIndicator from './components/OfflineIndicator'
 import './App.css'
 
@@ -64,7 +64,7 @@ function AppContent() {
         duration={4000}
       />
       <OfflineIndicator />
-      <PWAInstallPrompt />
+
       
       <Routes>
         <Route path="/pricing" element={
