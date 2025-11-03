@@ -36,13 +36,14 @@ const PLAN_FEATURES = {
       'Unlimited invoices',
       'Advanced analytics dashboard',
       'Custom branding',
-      'Priority email support',
-      'API access',
-      'Advanced transparency features',
-      'Custom invoice templates',
-      'Automated reminders'
+      'Priority email support'
     ],
-    limitations: []
+    limitations: [
+      'No API access',
+      'No custom invoice templates',
+      'No automated reminders',
+      'No advanced transparency features'
+    ]
   },
   business: {
     name: 'Business',
@@ -58,7 +59,11 @@ const PLAN_FEATURES = {
       'Custom integrations',
       'Dedicated account manager',
       'White-label options',
-      'SLA guarantee'
+      'SLA guarantee',
+      'API access',
+      'Custom invoice templates',
+      'Automated reminders',
+      'Advanced transparency features'
     ],
     limitations: []
   }
