@@ -7,8 +7,8 @@ export default function Footer() {
             © {new Date().getFullYear()} HonestInvoice.com. All rights reserved.
           </div>
           <div className="flex items-center space-x-2 text-sm text-gray-600">
-            <span>Created by</span>
-            <span className="font-semibold text-gray-900">Corin Murdoch</span>
+            <span>Contact us at - </span>
+            <span className="font-semibold text-gray-900">support@honestinvoice.com</span>
           </div>
         </div>
       </div>
