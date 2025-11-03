@@ -222,11 +222,11 @@ export default function PricingPage() {
           </p>
           <div className="space-y-4">
             <button 
-              onClick={() => window.open('tel:1-800-971-238', '_self')}
+              onClick={() => window.open('tel:1-971-238-2472', '_self')}
               className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-600 transition-colors w-full flex items-center justify-center space-x-2"
             >
               <span>Contact Sales</span>
-              <span className="text-sm font-normal">(1-800-971-238)</span>
+              <span className="text-sm font-normal">(1-971-238-2472)</span>
             </button>
             <p className="text-sm text-gray-500">
               Or email us at sales@honestinvoice.com
