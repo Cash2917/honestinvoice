@@ -28,6 +28,9 @@ export interface SubscriptionFeatures {
   has_api_access: boolean
   has_advanced_reporting: boolean
   has_priority_support: boolean
+  has_custom_templates: boolean
+  has_automated_reminders: boolean
+  has_advanced_transparency: boolean
 }
 
 export interface UsageData {

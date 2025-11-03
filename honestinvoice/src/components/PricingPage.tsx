@@ -220,9 +220,18 @@ export default function PricingPage() {
           <p className="text-gray-600 mb-6">
             Contact us for enterprise pricing and custom features tailored to your needs
           </p>
-          <button className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-600 transition-colors">
-            Contact Sales
-          </button>
+          <div className="space-y-4">
+            <button 
+              onClick={() => window.open('tel:1-800-971-238', '_self')}
+              className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-600 transition-colors w-full flex items-center justify-center space-x-2"
+            >
+              <span>Contact Sales</span>
+              <span className="text-sm font-normal">(1-800-971-238)</span>
+            </button>
+            <p className="text-sm text-gray-500">
+              Or email us at sales@honestinvoice.com
+            </p>
+          </div>
         </div>
       </div>
     </div>
